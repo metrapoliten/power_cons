@@ -7,7 +7,7 @@ using namespace mp_units::si::unit_symbols;
 
 constexpr quantity kBatteryCapacity{6000, mA * h};
 constexpr quantity kBatteryDischarge{80, percent};
-constexpr quantity kMotorCurrent{32.9, A};
+constexpr quantity kMotorCurrent{25, A};
 
 // mA constants
 constexpr const std::array kEquipCurrArrM = {
