@@ -6,8 +6,11 @@
 
 namespace {
     constexpr auto sumOnboardCurr() {
-        quantity  onboardEquipCurr{0, mA};
-        for (auto i: kEquipCurrArr) {
+        quantity  onboardEquipCurr{0., mA};
+        for (auto i: kEquipCurrArrM) {
+            onboardEquipCurr += i;
+        }
+        for (auto i: kEquipCurrArrU) {
             onboardEquipCurr += i;
         }
         return onboardEquipCurr;
