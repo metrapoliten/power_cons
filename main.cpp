@@ -21,5 +21,5 @@ int main() {
     constexpr quantity<A>   onboardEquipCurr = sumOnboardCurr();
     constexpr quantity<A>   avgCurrDraw      = kMotorCurrent + onboardEquipCurr;
     constexpr quantity<min> time             = kBatteryCapacity * kBatteryDischarge / avgCurrDraw;
-    std::cout << time;
+    std::cout << time << '\n';
 }
