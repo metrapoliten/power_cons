@@ -5,6 +5,9 @@ find_package(gsl-lite 0.40 REQUIRED)
 
 set(CMAKE_CXX_STANDARD 20)
 
+set(MP_UNITS_API_STRING_VIEW_RET FALSE)
+set(MP_UNITS_API_NO_CRTP FALSE)
+
 add_executable(power_cons main.cpp constants.h)
 
 add_subdirectory(mp-units/src)
