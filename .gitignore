@@ -3,3 +3,6 @@ cmake-build-*/
 
 # CLion
 .idea*/
+
+# gsl-lite
+gsl-lite/
