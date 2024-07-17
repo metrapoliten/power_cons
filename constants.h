@@ -17,7 +17,8 @@ constexpr const std::array kEquipCurrArrM = {
         quantity{55, mA},       // VTX  800mW / 14.5 V
         quantity{222, mA},      // RECEIVER 1000 mW / 4.5V
         quantity{120 * 5, mA},  // 5 servos, approximate average value, haven't checked yet
-        quantity{24, mA}        // LQ8FP32
+        quantity{2 * 24, mA},   // 2 LQ8FP32
+        quantity{2, mA}         // SX1278
 };
 
 // uA constants
